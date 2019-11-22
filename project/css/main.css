@@ -1,0 +1,36 @@
+.section {
+  color: #121212;
+  background: #fff;
+  padding: 25px 0;
+  position: relative;
+  font-family: Rubik; }
+
+.whiter * {
+  border: 0px;
+  background: #fff;
+  color: #121212; }
+
+h1.faqfont {
+  font-weight: 300; }
+
+.card {
+  border-top: 1px solid #b6b6b6; }
+
+.collap {
+  display: inline-block;
+  font-size: 16px;
+  color: #121212;
+  font-weight: 500; }
+
+.collaptxt {
+  font-size: 14px;
+  color: #121212;
+  font-weight: 400; }
+
+.number {
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  margin-right: 10px; }
+
+/*# sourceMappingURL=main.css.map */
