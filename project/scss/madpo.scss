@@ -17,10 +17,13 @@ $faqfont : Rubik;
   // margin-right: 10px;
 }
 
+body{
+  background: #f7f7f7;
+}
 
 .section{
   color: $text_c;
-  background: #fff;
+  background: #f7f7f7;
   padding: 25px 0;
   position: relative;
   font-family: $faqfont;
@@ -29,12 +32,24 @@ $faqfont : Rubik;
 
 
 .whiter {
+  padding-right: 50px;
+  padding-left: 50px;
+  background: white;
   *{
       border: 0px;
       background: #fff ;
       color: $text_c;
 }
 }
+
+.greyer{
+  background: #eeeeee;
+  *{
+    background: #eeeeee;
+  }
+}
+
+
 
 h1.faqfont{
   font-weight: 400;
@@ -47,7 +62,7 @@ h1.faqfont{
 }
 
 .card{
-  border-top: 1px solid $border_c;
+  border-top: 1px solid #eeeeee;
 }
 
 .card-body{
