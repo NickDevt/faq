@@ -4,10 +4,11 @@
   "description": "",
   "main": "index.js",
   "dependencies": {
-    "gulp-sass": "^4.0.2",
     "gulp": "^4.0.2"
   },
   "devDependencies": {
+    "browser-sync": "^2.26.7",
+    "gulp-sass": "^4.0.2",
     "gulp-sourcemaps": "^2.6.5",
     "gulp-watch": "^5.0.1"
   },

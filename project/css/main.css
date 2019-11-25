@@ -11,7 +11,9 @@
   color: #121212; }
 
 h1.faqfont {
-  font-weight: 300; }
+  font-weight: 400;
+  color: #121212;
+  margin-bottom: 20px; }
 
 .card {
   border-top: 1px solid #b6b6b6; }
@@ -25,12 +27,23 @@ h1.faqfont {
 .collaptxt {
   font-size: 14px;
   color: #121212;
-  font-weight: 400; }
+  font-weight: 400;
+  text-decoration: none; }
 
 .number {
-  width: 20px;
+  width: 21px;
   height: 20px;
   display: inline-block;
   margin-right: 10px; }
+
+.faq-header {
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-top: 13px;
+  padding-bottom: 13px; }
+
+.faq-btn {
+  padding-left: 0px;
+  box-shadow: 0 0 0 0rem rgba(255, 255, 255, 0) !important; }
 
 /*# sourceMappingURL=main.css.map */

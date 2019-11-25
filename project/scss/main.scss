@@ -23,9 +23,11 @@ $faqfont : Rubik;
 }
 
 h1.faqfont{
-  font-weight: 300;
+  font-weight: 400;
+  color: $text_c;
+  margin-bottom: 20px;
 
-
+  // color: red;
 }
 
 .card{
@@ -44,18 +46,27 @@ h1.faqfont{
   font-size: 14px;
   color: $text_c;
   font-weight: 400;
+  text-decoration: none;
 
 }
 
 
 .number{
-  width: 20px;
+  width: 21px;
   height: 20px;
   display: inline-block;
   margin-right: 10px;
 }
 
-// .faq-header{
-//   padding: 0px !important;
-//
-// }
+
+.faq-header {
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-top: 13px;
+  padding-bottom: 13px;
+}
+
+.faq-btn{
+  padding-left: 0px;
+  box-shadow: 0 0 0 0rem rgba(255,255,255,0) !important;
+}
