@@ -1,4 +1,4 @@
-$text_c : #121212;
+$text_c : #454545;
 $border_c : #b6b6b6;
 $faqfont : Rubik;
 
@@ -18,12 +18,12 @@ $faqfont : Rubik;
 }
 
 body{
-  background: #f7f7f7;
+  background: #F6F6F6;
 }
 
 .section{
   color: $text_c;
-  background: #f7f7f7;
+  background: #F6F6F6;
   padding: 25px 0;
   position: relative;
   font-family: $faqfont;
@@ -35,6 +35,8 @@ body{
   padding-right: 50px;
   padding-left: 50px;
   background: white;
+  border-left: 2px solid #eeeeee;
+  border-right: 2px solid #eeeeee;
   *{
       border: 0px;
       background: #fff ;
@@ -42,12 +44,16 @@ body{
 }
 }
 
+
+
 .greyer{
   background: #eeeeee;
   *{
     background: #eeeeee;
   }
 }
+
+
 
 
 
@@ -85,13 +91,13 @@ h1.faqfont{
 
 }
 
-#b1::before{content: url('../img/1.svg'); @include number;}
-#b2::before{content: url('../img/2.svg'); @include number;}
-#b3::before{content: url('../img/3.svg'); @include number;}
-#b4::before{content: url('../img/4.svg'); @include number;}
-#b5::before{content: url('../img/5.svg'); @include number;}
-#b6::before{content: url('../img/6.svg'); @include number;}
-#b7::before{content: url('../img/7.svg'); @include number;}
+#b1::before{content: url('../img/01.svg'); @include number;}
+#b2::before{content: url('../img/02.svg'); @include number;}
+#b3::before{content: url('../img/03.svg'); @include number;}
+#b4::before{content: url('../img/04.svg'); @include number;}
+#b5::before{content: url('../img/05.svg'); @include number;}
+#b6::before{content: url('../img/06.svg'); @include number;}
+#b7::before{content: url('../img/07.svg'); @include number;}
 
 .collap:active::after{
       content: url('../img/up.svg');
@@ -129,4 +135,19 @@ h1.faqfont{
   padding-left: 0px;
   box-shadow: 0 0 0 0rem rgba(255,255,255,0) !important;
   text-align: left;
+}
+
+.faq-nopad{
+  padding: 0px;
+}
+
+.col-wrapper-padd{
+  width: 100%;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.wrap-decor{
+  width: 100%;
+  box-shadow: 0px 3px 2px #DEDEDE;
 }

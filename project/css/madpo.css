@@ -1,9 +1,9 @@
 body {
-  background: #f7f7f7; }
+  background: #F6F6F6; }
 
 .section {
-  color: #121212;
-  background: #f7f7f7;
+  color: #454545;
+  background: #F6F6F6;
   padding: 25px 0;
   position: relative;
   font-family: Rubik; }
@@ -11,11 +11,13 @@ body {
 .whiter {
   padding-right: 50px;
   padding-left: 50px;
-  background: white; }
+  background: white;
+  border-left: 2px solid #eeeeee;
+  border-right: 2px solid #eeeeee; }
   .whiter * {
     border: 0px;
     background: #fff;
-    color: #121212; }
+    color: #454545; }
 
 .greyer {
   background: #eeeeee; }
@@ -24,7 +26,7 @@ body {
 
 h1.faqfont {
   font-weight: 400;
-  color: #121212;
+  color: #454545;
   margin-bottom: 20px;
   margin-top: 20px;
   font-size: 2em; }
@@ -39,7 +41,7 @@ h1.faqfont {
   margin-left: 3em;
   display: inline-block;
   font-size: 16px;
-  color: #121212;
+  color: #454545;
   font-weight: 500; }
 
 .collap::after {
@@ -47,7 +49,7 @@ h1.faqfont {
   margin-left: 10px; }
 
 #b1::before {
-  content: url("../img/1.svg");
+  content: url("../img/01.svg");
   display: inline-block;
   width: 1em;
   height: 1em;
@@ -55,7 +57,7 @@ h1.faqfont {
   margin-left: -3em; }
 
 #b2::before {
-  content: url("../img/2.svg");
+  content: url("../img/02.svg");
   display: inline-block;
   width: 1em;
   height: 1em;
@@ -63,7 +65,7 @@ h1.faqfont {
   margin-left: -3em; }
 
 #b3::before {
-  content: url("../img/3.svg");
+  content: url("../img/03.svg");
   display: inline-block;
   width: 1em;
   height: 1em;
@@ -71,7 +73,7 @@ h1.faqfont {
   margin-left: -3em; }
 
 #b4::before {
-  content: url("../img/4.svg");
+  content: url("../img/04.svg");
   display: inline-block;
   width: 1em;
   height: 1em;
@@ -79,7 +81,7 @@ h1.faqfont {
   margin-left: -3em; }
 
 #b5::before {
-  content: url("../img/5.svg");
+  content: url("../img/05.svg");
   display: inline-block;
   width: 1em;
   height: 1em;
@@ -87,7 +89,7 @@ h1.faqfont {
   margin-left: -3em; }
 
 #b6::before {
-  content: url("../img/6.svg");
+  content: url("../img/06.svg");
   display: inline-block;
   width: 1em;
   height: 1em;
@@ -95,7 +97,7 @@ h1.faqfont {
   margin-left: -3em; }
 
 #b7::before {
-  content: url("../img/7.svg");
+  content: url("../img/07.svg");
   display: inline-block;
   width: 1em;
   height: 1em;
@@ -107,7 +109,7 @@ h1.faqfont {
 
 .collaptxt {
   font-size: 14px;
-  color: #121212;
+  color: #454545;
   font-weight: 400;
   text-decoration: none; }
 
@@ -127,5 +129,17 @@ h1.faqfont {
   padding-left: 0px;
   box-shadow: 0 0 0 0rem rgba(255, 255, 255, 0) !important;
   text-align: left; }
+
+.faq-nopad {
+  padding: 0px; }
+
+.col-wrapper-padd {
+  width: 100%;
+  padding-left: 15px;
+  padding-right: 15px; }
+
+.wrap-decor {
+  width: 100%;
+  box-shadow: 0px 3px 2px #DEDEDE; }
 
 /*# sourceMappingURL=madpo.css.map */
